@@ -1,8 +1,12 @@
+/* Reset */
+
 * {
     margin: 0px;
     padding: 0px;
 }
+
 /* Global Styles */
+
 html {
     text-align: center;
     background-color: black;
@@ -19,13 +23,15 @@ html {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     z-index: 1;
     background-color: black;
     margin: 0px;
     padding: 0px;
-    height: 70px;
+    height: 69px;
+    border-bottom: seashell 1px solid;
 }
 
 header img {
@@ -46,13 +52,31 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    margin-top: 20px;
 }
 
+/* Cover Section */
 
-main {
+.cover {
+    padding-top: 70px;
+    text-align: center;
+    width: 1200px;
+    height: 700px;
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cover div {
+    padding: 15px;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
 
 }
-section {
 
-}
+/* Month Section */
+
+ .month {
+
+ }
