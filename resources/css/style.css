@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Global Styles */
+html {
+    text-align: center;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: .9;
+    color: seashell;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 70px;
+}
+
+header img {
+    display: flex;
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    margin-top: 0px;
+}
+nav {
+    width: 40%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+
+main {
+
+}
+section {
+
+}
