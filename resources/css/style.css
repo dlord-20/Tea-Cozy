@@ -15,7 +15,7 @@ html {
     opacity: .9;
     color: seashell;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
 }
 
 /* Header */
@@ -28,7 +28,6 @@ header {
     width: 100%;
     z-index: 1;
     background-color: black;
-    margin: 0px;
     padding: 0px;
     height: 69px;
     border-bottom: seashell 1px solid;
@@ -54,9 +53,18 @@ nav ul {
     align-content: center;
 }
 
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding-top: 100px;
+}
 /* Cover Section */
 
 .cover {
+    padding-top: 0px;
     padding-top: 70px;
     text-align: center;
     width: 1200px;
@@ -65,6 +73,7 @@ nav ul {
     z-index: 0;
     display: flex;
     align-items: center;
+
 }
 
 .cover div {
@@ -78,5 +87,63 @@ nav ul {
 /* Month Section */
 
  .month {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+ }
 
+ .month .container {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .month .container img {
+    padding: 10px;
+ }
+
+ .month img {
+    max-width: 300px;
+    max-height: 200px;
+
+ }
+
+ .locations {
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+    margin-top: 100px;
+ }
+
+
+ .locations .container {
+    display: flex;
+    justify-content: center;
+    /* padding: 15px; */
+ }
+
+ .locations .container div {
+    background-color: black;
+    padding: 15px;
+    margin: 15px 20px;
+    width: 300px;
+    height: auto;
+    opacity: 1;
+ }
+
+ .locations .container div * {
+    padding: 20px 0;
+ }
+
+ footer {
+     padding: 20px;
+ }
+
+ footer h5 {
+    padding: 20px;
+ }
+
+ footer p {
+     text-align: left;
  }
